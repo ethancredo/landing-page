@@ -77,6 +77,11 @@ nav a:hover {
     padding: 0;
 }
 
+.banner-wrapper img {
+    width: 600px;
+    border-radius: 25px;
+}
+
 .banner-wrapper button {
     border-collapse: collapse;
     padding: 10px 30px;
@@ -110,9 +115,15 @@ nav a:hover {
 }
 
 .info-container div {
-    border: 1px solid red;
-    max-width: 200px;
+    /* border: 1px solid red; */
+    max-width: 300px;
     border-radius: 25px;
+}
+
+.info-container img {
+    width: 100%;
+    border-radius: 10px;
+    border: 6px solid aquamarine;
 }
 
 .quote-section {
