@@ -1,5 +1,12 @@
+@font-face {
+    font-family: Wotfard;
+    src: url(../font/Wotfard-Regular.otf);
+}
+
 body {
     margin: 0;
+    font-family: Wotfard;
+    font-size: 17px;
 }
 
 footer {
