@@ -2,12 +2,19 @@ body {
     margin: 0;
 }
 
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: midnightblue;
+    color: white;
+}
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 30px;
-    background-color: firebrick;
+    background-color: midnightblue;
     color: whitesmoke;
 }
 
@@ -27,15 +34,21 @@ nav a:hover {
 }
 
 .banner {
+    background-color: midnightblue;
+    color: whitesmoke;
+    padding: 40px 0;
+}
+
+.banner-wrapper {
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: firebrick;
-    color: whitesmoke;
+    justify-content: space-between;
 }
 
 .banner div {
-    padding: 40px;
+    padding: 10px;
 }
 
 .info-section {
@@ -44,19 +57,21 @@ nav a:hover {
 }
 
 .info-container {
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .info-container div {
     border: 1px solid red;
-    width: 250px;
+    max-width: 200px;
     border-radius: 25px;
 }
 
 .quote-section {
-    padding: 30px 0;
+    padding: 40px 0;
     background-color: bisque;
 }
 
@@ -65,8 +80,12 @@ nav a:hover {
     margin: auto;
 }
 
-.quote-section blockquote {
+.quote-section .quote-wrapper {
     font-size: 30px;
+}
+
+.quote-wrapper div {
+    padding: 0 10px;
 }
 
 .quote-sauce {
