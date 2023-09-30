@@ -6,6 +6,36 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <script>
+        // Write a function called add7 that takes one number and returns that number + 7.
+        function add7(number) {
+            number = prompt("Enter number: ");
+            alert(parseInt(number) + 7);
+        }        
+        add7();
+
+        // Write a function called multiply that takes 2 numbers and returns their product.
+        function multiply(number1, number2) {
+            number1 = prompt("Enter first number: ");
+            number2 = prompt("Enter second number: ");
+
+            let number = parseInt(number1 * number2);
+            alert(number);
+        }
+        multiply();
+
+        // Write a function called capitalize that takes a string and returns that string with only the 
+        // first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+        function capitalize(text) {
+            text = prompt("Enter a word: ");
+
+            // get the first letter then make the first letter uppercase
+            let firstWord = Array.from(text)[0].toUpperCase();
+
+            alert(firstWord);
+        }
+        capitalize();
+    </script>
 </head>
 <body>
     <header>
@@ -18,7 +48,7 @@
         <nav>
             <a href="">Cats</a>
             <a href="">About</a>
-            <a href="">Contact</a>
+            <a href="">Javascript</a>
         </nav>
     </header>
     <main>
